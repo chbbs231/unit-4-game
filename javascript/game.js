@@ -1,3 +1,7 @@
-let attack = math.floor(Math.random()* 20) + 1
-let Wins = 0
-let losses = 0
+
+const characters=[`April`, `Ron`, `Michael`,`Dwight`]
+let fighter = {},
+    opponent = {},
+    wins = 0;
+const getRandom = attack => Math.floor(20* Math.random())
+console.log(attack)
